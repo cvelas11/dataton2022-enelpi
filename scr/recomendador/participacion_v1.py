@@ -3,10 +3,10 @@
 # habla sobre el sector al que pertenece la empresa y un LDA guiado para
 # clasificar las noticias según su contenido en 8 categorías
 
-from helper import cleaning_sentence, get_dictionary, gettin_n_grams
+from helper import cleaning_sentence, get_dictionary, getting_n_grams
 import pandas as pd
 import guidedlda
-
+import spacy
 
 # Contiene Cliente: Esta parte determina si las noticias mencionan
 # explícitamente a los clientes asociados. Se hace un preentrenamiento para
